@@ -1,6 +1,6 @@
-# 🧠 Neovim Configuração Modular com LSP, Ruff com suporte a Quarto
+# 🧠 Neovim Configuração Modular com LSP e Ruff (com suporte a Quarto)
 
-Esta é uma configuração modular para o **Neovim**, com foco em produtividade para Python e documentos Quarto, com recursos como:
+Esta é uma configuração modular para o **Neovim** rodando na distro **Alpine Linux**, com foco em produtividade para Python e documentos Quarto, com recursos como:
 
 - Suporte completo ao LSP via `pyright`
 - Formatação e linting com `ruff`
@@ -16,10 +16,11 @@ Esta é uma configuração modular para o **Neovim**, com foco em produtividade 
 
 ## ✅ Requisitos
 
-- Neovim >= 0.9
+- Neovim >= 0.10
 - Python 3.10+
 - Node.js (para alguns plugins como `coc` ou LSP)
 - `pip install ruff`
+- [Quarto](https://quarto.org/) -> Script container/docker [Aqui]()
 - Git
 - Fonte com suporte a NerdFont (ex: [FiraCode Nerd Font](https://www.nerdfonts.com/))
 
@@ -50,6 +51,7 @@ nvim/
 ├── init.lua
 └── lua/
     ├── core/
+    │   ├── autocmds.lua
     │   ├── options.lua
     │   └── mappings.lua
     └── plugins/
