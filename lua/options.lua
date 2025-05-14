@@ -10,3 +10,18 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.syntax = "on"
 vim.opt.cmdheight = 2
 vim.opt.scrolloff = 8
+vim.opt.cursorline = true
+vim.opt.cursorcolumn = true
+
+vim.api.nvim_create_autocmd("InsertEnter", {
+    callback = function()
+        vim.opt.cursorline = true
+        vim.opt.cursorcolumn = true
+    end,
+})
+vim.api.nvim_create_autocmd("InsertLeave", {
+    callback = function()
+        vim.opt.cursorline = false
+        vim.opt.cursorcolumn = false
+    end,
+})
