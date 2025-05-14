@@ -1,4 +1,4 @@
-# 🧠 Neovim Configuração Modular com LSP, Ruff, Árvores, e Mais
+# 🧠 Neovim Configuração Modular com LSP, Ruff com suporte a Quarto
 
 Esta é uma configuração modular para o **Neovim**, com foco em produtividade para Python e documentos Quarto, com recursos como:
 
