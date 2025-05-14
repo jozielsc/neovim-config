@@ -1,10 +1,13 @@
 
 return {
-    require("plugins.sonokai"),
-    require("plugins.cmp"),
-    require("plugins.lsp"),
-    require("plugins.quarto"),
     { "vim-airline/vim-airline" },
+    {
+        "nvim-tree/nvim-tree.lua",
+        config = function()
+            require("nvim-tree").setup()
+            vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+        end,
+    },
     {
         "nvim-treesitter/nvim-treesitter",
         build = ":TSUpdate",

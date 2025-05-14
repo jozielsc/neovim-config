@@ -5,3 +5,4 @@ vim.api.nvim_create_autocmd("BufRead", {
         vim.g.quarto_enabled = true
     end,
 })
+
