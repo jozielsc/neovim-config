@@ -61,7 +61,7 @@ nvim/
         ├── telescope.lua
         ├── sonokai.lua
         └── ruff.lua
-
+```
 ---
 
 ## 🧪 Funcionalidades
