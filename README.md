@@ -53,7 +53,7 @@ nvim/
     │   ├── options.lua
     │   └── mappings.lua
     └── plugins/
-        ├── init.lua
+        ├── editor.lua
         ├── lsp.lua
         ├── cmp.lua
         ├── quarto.lua
