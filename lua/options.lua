@@ -1,3 +1,4 @@
+
 vim.opt.number = true
 vim.opt.relativenumber = false
 vim.opt.tabstop = 4
@@ -9,4 +10,3 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.syntax = "on"
 vim.opt.cmdheight = 2
 vim.opt.scrolloff = 8
-

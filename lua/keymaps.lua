@@ -1,3 +1,4 @@
+
 vim.g.mapleader = " "
 
 -- Navegação entre splits
@@ -18,5 +19,6 @@ vim.keymap.set("n", "tr", ":bp<CR>")
 
 vim.keymap.set("n", "tw", ":w<CR>")
 vim.keymap.set("n", "tq", ":q<CR>")
--- Organizar imports com COC (Python)
+
+-- Organizar imports (COC)
 vim.keymap.set("n", "<leader>oi", ":call CocActionAsync('runCommand', 'editor.action.organizeImport')<CR>")
