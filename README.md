@@ -20,7 +20,7 @@ Esta é uma configuração modular para o **Neovim** rodando na distro **Alpine 
 - Python 3.10+
 - Node.js (para alguns plugins como `coc` ou LSP)
 - `pip install ruff`
-- [Quarto](https://quarto.org/) -> Script container/docker [Aqui]()
+- [Quarto](https://quarto.org/) -> Script container/docker no Alpine [Aqui](https://github.com/jozielsc/alpine-quarto-docker)
 - Git
 - Fonte com suporte a NerdFont (ex: [FiraCode Nerd Font](https://www.nerdfonts.com/))
 
